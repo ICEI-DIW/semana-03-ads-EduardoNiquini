@@ -7,6 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="cabecalho">
+        <h1>Catálogo de Filmes</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#HOME">Home</a></li>
+                    <li><a href="#FILMES">Filmes</a></li>
+                    <li><a href="#SOBRE">Sobre</a></li>
+                    <li><a href="#CONTATO">Contato</a></li>
+                </ul>
+                <div class="menu-icon">
+                    <img src="menuicon.jpg" alt="Ícone de Menu" />
+                </div>
+            </nav>
+            
+        </header>
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </div>
+        <main>
+            <section class="filmes">
+                
+                <article class="filme">
+                    <h2>Título do Filme 1</h2>
+                    <img src="https://picsum.photos/id/1018/200/300" alt="Imagem do Filme 1">
+                    <p>Descrição do filme 1.</p>
+                </article>
+                <article class="filme">
+                    <h2>Título do Filme 2</h2>
+                    <img src="https://picsum.photos/id/1015/200/300" alt="Imagem do Filme 2">
+                    <p>Descrição do filme 2.</p>
+                </article>
+                <article class="filme">
+                    <h2>Título do Filme 3</h2>
+                    <img src="https://picsum.photos/id/1016/200/300" alt="Imagem do Filme 3">
+                    <p>Descrição do filme 3.</p>
+                </article>
+                <article class="filme">
+                    <h2>Título do Filme 4</h2>
+                    <img src="https://picsum.photos/200/300?random=1" alt="Imagem do Filme 3">
+                    <p>Descrição do filme 4.</p>
+                </article>
+            </article>
+            <article class="filme">
+                <h2>Título do Filme 5</h2>
+                <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem do Filme 3">
+                <p>Descrição do filme 5.</p>
+            </article>
+            </section>
+    
+            <section class="formulario">
+                <h2>Inscreva-se para Novidades</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    
+        <footer class="rodape">
+            <p>&copy; 2025 Catálogo de Filmes. Todos os direitos reservados.</p>
+        </footer>
     
 </body>
 </html>
+
+<!DOCTYPE html>

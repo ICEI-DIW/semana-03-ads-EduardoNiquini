@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Eduardo Niquini Santiago
+- Matricula: 879554
+- Proposta de projeto escolhida: Catálogo de Filmes
+- Breve descrição sobre seu projeto: Catalogo sobre variado tipos de filmes, com informações sobre os filme como o ano em que foi lançado, sinopse e trailers
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print do esboço](esboço.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home Page](home-page.jpeg)
